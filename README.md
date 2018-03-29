@@ -1,4 +1,4 @@
-# PDF 
+# PDF indexing
 Motivation: creating indices for pdf textbooks. As well as ripping index metadata from PDFs.
 
 ### Creating indicies via ghostscript
