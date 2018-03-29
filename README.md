@@ -1,4 +1,4 @@
-# PDF indexing
+# PDF manipulation
 Motivation: creating indices for pdf textbooks. As well as ripping index metadata from PDFs.
 
 ### Creating indicies via ghostscript
@@ -12,3 +12,6 @@ Motivation: creating indices for pdf textbooks. As well as ripping index metadat
 
 ### Import indices to a PDF
 1. `pdftk targetPDF.pdf update_info index.txt output updated.pdf`
+
+### resize all pages
+`pdfjam --a4paper input.pdf -o output.pdf`
