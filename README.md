@@ -11,4 +11,4 @@ Motivation: creating indices for pdf textbooks. As well as ripping index metadat
 1. `pdftk targetExtract.pdf dump_data output index.txt`
 
 # Import indices to a PDF
-1. pdftk targetPDF.pdf update_info index.txt output updated.pdf
+1. `pdftk targetPDF.pdf update_info index.txt output updated.pdf`
